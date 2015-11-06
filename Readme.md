@@ -7,8 +7,6 @@ You MUST obtain a free google maps API key from here https://developers.google.c
 
 After you get the key update the index.html file with your key.
 
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOUR API KEY HERE"></script>
-
 You can view more info at this blog post http://www.extjstips.com/2015/11/05/google-map-panel-gmap-and-loading-markers-from-a-store/
 
 License GPLv3 https://www.gnu.org/licenses/gpl.html

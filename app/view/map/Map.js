@@ -3,6 +3,7 @@ Ext.define('Map.view.map.Map', {
     alias: 'widget.map',
     region: 'center',
     requires: [
+        'Ext.button.Button',
         'Ext.layout.container.Fit',
         'Map.view.map.MapController',
         'Map.view.map.MapModel'
@@ -18,7 +19,19 @@ Ext.define('Map.view.map.Map', {
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         zoom: 3
     },
-
+    dockedItems: [
+        {
+            xtype: 'toolbar',
+            dock: 'top',
+            items: [
+                {
+                    xtype: 'button',
+                    text: 'Add Marker',
+                    handler: 'addNewMarker'
+                }
+            ]
+        }
+    ],
     addMarker: function (marker) {
         var me = this;
         marker = Ext.apply({

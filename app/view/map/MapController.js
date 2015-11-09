@@ -18,9 +18,9 @@ Ext.define('Map.view.map.MapController', {
                     // The fireEvent() from the map component
                     markerClick: function (marker) {
                         /*
-                        * This will create and open a window with a zoomed in street map as well
-                        * as open the WikiPedia page from the url on the marker
-                        * */
+                         * This will create and open a window with a zoomed in street map as well
+                         * as open the WikiPedia page from the url on the marker
+                         * */
                         Ext.create('Ext.window.Window', {
                             title: marker.title, // Marker title
                             height: 600,
@@ -60,5 +60,38 @@ Ext.define('Map.view.map.MapController', {
                 }
             }
         }
+    },
+    /*
+    * The init method fires before the view is initialized and the markers are loaded from the store
+    **/
+    init: function () {
+        var me = this,
+            map = me.getView(), //Reference to map view
+            store = map.getViewModel().getStore('Markers'), // Get the store from the ViewModel
+            markers = [], // Create and empty markers array
+            data;
+        // Load the store
+        store.load(function (records) {
+            // Iterate through each record
+            Ext.each(records, function (record) {
+                data = record.getData(); // Get the data object from each record
+                markers.push(data); // Push the objects onto the markers array
+            });
+        });
+        map.markers = markers;  // Set the markers config for the Map component to the markers array
+    },
+    /*
+    * Method to add a new marker.  This could come from a form and could also use the geocode function
+    * */
+    addNewMarker: function (btn) {
+        var map = btn.up('map'),
+            marker = {
+                lat: 31.633725,
+                lng: -7.993092,
+                title: "Marrakesh",
+                url: 'https://en.wikipedia.org/wiki/Marrakesh',
+                animation: google.maps.Animation.DROP
+            };
+        map.addMarker(marker)
     }
 });

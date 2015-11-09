@@ -4,13 +4,15 @@ Ext.define('Map.view.main.Main', {
     requires: [
         'Ext.layout.container.Fit',
         'Map.view.main.MainController',
-        'Map.view.main.MainModel'
+        'Map.view.main.MainModel',
+        'Map.view.map.Map'
     ],
     layout: 'fit',
     controller: 'main',
     viewModel: 'main',
-    items: [],
-    listeners: {
-        afterrender: 'onAfterViewportRender'
-    }
+    items: [
+        {
+            xtype: 'map'
+        }
+    ]
 });

@@ -1794,17 +1794,17 @@
         "y": 3699
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1069",
       "radius": {
-        "bl": 4,
-        "br": 4,
-        "tl": 4,
-        "tr": 4
+        "bl": 1,
+        "br": 1,
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window/window-default-corners.gif",
@@ -1825,17 +1825,17 @@
         "y": 3909
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1070_header",
       "radius": {
         "bl": 0,
         "br": 0,
-        "tl": 4,
-        "tr": 4
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-top-corners.gif",
@@ -1856,15 +1856,15 @@
         "y": 3991
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1071_header",
       "radius": {
-        "bl": 4,
-        "br": 4,
+        "bl": 1,
+        "br": 1,
         "tl": 0,
         "tr": 0
       },
@@ -1887,16 +1887,16 @@
         "y": 4037
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1072_header",
       "radius": {
-        "bl": 4,
+        "bl": 1,
         "br": 0,
-        "tl": 4,
+        "tl": 1,
         "tr": 0
       },
       "slices": {
@@ -1919,17 +1919,17 @@
         "y": 4247
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1073_header",
       "radius": {
         "bl": 0,
-        "br": 4,
+        "br": 1,
         "tl": 0,
-        "tr": 4
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-right-corners.gif",
@@ -1951,17 +1951,17 @@
         "y": 4457
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1074_header",
       "radius": {
-        "bl": 4,
-        "br": 4,
-        "tl": 4,
-        "tr": 4
+        "bl": 1,
+        "br": 1,
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-collapsed-top-corners.gif",
@@ -1982,17 +1982,17 @@
         "y": 4503
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1075_header",
       "radius": {
-        "bl": 4,
-        "br": 4,
-        "tl": 4,
-        "tr": 4
+        "bl": 1,
+        "br": 1,
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-collapsed-bottom-corners.gif",
@@ -2013,17 +2013,17 @@
         "y": 4549
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1076_header",
       "radius": {
-        "bl": 4,
-        "br": 4,
-        "tl": 4,
-        "tr": 4
+        "bl": 1,
+        "br": 1,
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-collapsed-left-corners.gif",
@@ -2045,17 +2045,17 @@
         "y": 4759
       },
       "frame": {
-        "b": 4,
-        "l": 4,
-        "r": 4,
-        "t": 4
+        "b": 1,
+        "l": 1,
+        "r": 1,
+        "t": 1
       },
       "id": "window-1077_header",
       "radius": {
-        "bl": 4,
-        "br": 4,
-        "tl": 4,
-        "tr": 4
+        "bl": 1,
+        "br": 1,
+        "tl": 1,
+        "tr": 1
       },
       "slices": {
         "corners": "images/window-header/window-header-default-collapsed-right-corners.gif",

@@ -16,7 +16,12 @@ Ext.define('Map.view.map.MapModel', {
                 {lat: 35.682805, lng: 139.756735, title: "Tokyo", url: 'https://en.wikipedia.org/wiki/Tokyo'},
                 {lat: -33.867334, lng: 151.208053, title: "Sydney", url: 'https://en.wikipedia.org/wiki/Sydney'},
                 {lat: -33.922646, lng: 18.407470, title: "Cape Town", url: 'https://en.wikipedia.org/wiki/Cape_Town'},
-                {lat: -23.550230, lng: -46.628265, title: "Sao Paulo", url: 'https://en.wikipedia.org/wiki/S%C3%A3o_Paulo'}
+                {
+                    lat: -23.550230,
+                    lng: -46.628265,
+                    title: "Sao Paulo",
+                    url: 'https://en.wikipedia.org/wiki/S%C3%A3o_Paulo'
+                }
             ]
         }
     }
